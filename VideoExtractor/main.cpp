@@ -10,7 +10,7 @@ int main(void) {
 	VideoCapture cap("test.mp4"); //Read Video File
 	if (!cap.isOpened()) // If it cannot open close app
 		return -1;
-
+	 
 	Mat frame, org_frame;
 	int count = -1;
 	int new_height = 480; //New Size for resizing
